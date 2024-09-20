@@ -9,11 +9,11 @@
                 <h3>Why should we improve the IPv6 support?</h3>
                 <span>Not every ISP provides a publicly reachable IPv4 address, or they charge extra fees for it. Sometimes they even require an upgrade to an expensive business plan. Unlike IPv4, IPv6 addresses are typically provided without extra fees.</span>
                 <span>It is generally possible to run a node without a public IP address (with outgoing connections only). But the search for peers is slower, you may find fewer and their quality might be worse.</span>
-                <span>Making it easier, more reliable, and cheaper to run a node from home is important for increasing the decentralization of the network.</span>
+                <span>Making it easier, more reliable, and more affordable to run a node from home is important for increasing the decentralization of the network.</span>
             </li>
             <li>
                 <h3>Are there other solutions?</h3>
-                <span>Some people enable incoming connections by routing the traffic through a VPN, but this increases the cost and adds another possible single point of failure.</span>
+                <span>Some people enable incoming connections by routing the traffic through a VPN, but this increases the cost, adds complexity, and introduces another possible single point of failure.</span>
             </li>
             <li>
                 <h3>How can we solve this problem?</h3>
