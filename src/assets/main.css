@@ -18,4 +18,8 @@
     .orange-icon {
         @apply w-6 h-6 mx-auto text-orange-500
     }
+
+    .blue-icon {
+        @apply w-6 h-6 mx-auto text-blue-500
+    }
 }

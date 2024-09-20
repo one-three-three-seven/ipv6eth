@@ -140,6 +140,27 @@
                             <CheckCircleIcon class="green-icon" />
                         </td>
                     </tr>
+                    <tr>
+                        <td>Developer Feedback</td>
+                        <td>
+                            <!-- Placeholder -->
+                        </td>
+                        <td>
+                            <!-- Placeholder -->
+                        </td>
+                        <td>
+                            <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'More testing needed before dual-stack becomes default', delay: 0, triggers: ['hover', 'click'] }" />
+                        </td>
+                        <td>
+                            <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'Dual-Stack may already work, but needs more testing', delay: 0, triggers: ['hover', 'click'] }" />
+                        </td>
+                        <td>
+                            <!-- Placeholder -->
+                        </td>
+                        <td>
+                            <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'May switch to dual-stack as the default in the future', delay: 0, triggers: ['hover', 'click'] }" />
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>

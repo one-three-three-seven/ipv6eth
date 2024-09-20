@@ -30,7 +30,7 @@
             <li>
                 <h3>Why do clients not use dual-stack by default?</h3>
                 <span>Most clients got the IPv6 support only after the client was already in widespread use. Changing such default settings might be unexpected for the users and could cause issues.</span>
-                <span>A slow rollout is definitely safer in case there are any unexpected side effects. However, this is just my opinion. Making it the default setting would speed up the rollout.</span>
+                <span>The slow rollout was definitely safer in case of any unexpected side effects. Making it the default setting would speed up the rollout.</span>
             </li>
             <li>
                 <h3>Why are no execution layer clients listed?</h3>
