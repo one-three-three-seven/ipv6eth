@@ -104,19 +104,19 @@
                             <XCircleIcon class="red-icon" />
                         </td>
                         <td>
-                            <InformationCircleIcon class="orange-icon" v-tooltip="'The IPv6 address was not automatically detected'" />
+                            <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'The IPv6 address was not automatically detected', delay: 0, triggers: ['hover', 'click'] }" />
                         </td>
                         <td>
-                            <InformationCircleIcon class="orange-icon" v-tooltip="'The IPv6 address was not automatically detected'" />
+                            <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'The IPv6 address was not automatically detected', delay: 0, triggers: ['hover', 'click'] }" />
                         </td>
                         <td>
-                            <InformationCircleIcon class="orange-icon" v-tooltip="'The IPv6 address was not automatically detected'" />
+                            <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'The IPv6 address was not automatically detected', delay: 0, triggers: ['hover', 'click'] }" />
                         </td>
                         <td>
-                            <InformationCircleIcon class="orange-icon" v-tooltip="'The IPv6 address was not automatically detected'" />
+                            <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'The IPv6 address was not automatically detected', delay: 0, triggers: ['hover', 'click'] }" />
                         </td>
                         <td>
-                            <InformationCircleIcon class="orange-icon" v-tooltip="'The IPv6 address was not automatically detected'" />
+                            <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'The IPv6 address was not automatically detected', delay: 0, triggers: ['hover', 'click'] }" />
                         </td>
                     </tr>
                     <tr>
