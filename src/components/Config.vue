@@ -1,5 +1,6 @@
 <template>
     <hr class="h-1 my-4 bg-zinc-500">
+    
     <h3>Dual-Stack Node Configuration</h3>
 
     <span class="mt-2">Please read the documentation of your client before applying any changes. You might need to adjust settings and open ports in your firewall.</span>
@@ -23,6 +24,8 @@
 
     <h4 class="border-t-2">Grandine</h4>
     <a href="https://docs.grandine.io/cli_options.html" target="_blank" class="text-base">Documentation: CLI options</a>
+    
+    <hr class="h-1 mt-4 bg-zinc-500">
 </template>
 
 <style scoped>
