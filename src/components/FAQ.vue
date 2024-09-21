@@ -14,6 +14,7 @@
             <li>
                 <h3>Are there other solutions?</h3>
                 <span>Some people enable incoming connections by routing the traffic through a VPN, but this increases the cost, adds complexity, and introduces another possible single point of failure.</span>
+                <span>The <a href="https://en.wikipedia.org/wiki/Hole_punching_(networking)" target="_blank">Hole Punching technique</a> is another potential solution, but it has not been implemented yet.</span>
             </li>
             <li>
                 <h3>How can we solve this problem?</h3>
