@@ -34,7 +34,7 @@
                 <span>The slow rollout was definitely safer in case of any unexpected side effects. Making it the default setting would speed up the rollout.</span>
             </li>
             <li>
-                <h3>Why are no execution layer clients listed?</h3>
+                <h3>What about the execution layer?</h3>
                 <span>Keeping the node in sync with the network depends more on the consensus layer network.</span>
                 <span>Most execution layer clients use the Discv4 protocol by default to discover other nodes. Discv4 doesn't support advertising multiple IP addresses at the same time, making dual-stack setups impractical right now.
                     To enable better IPv6 support, a transition to Discv5 is required.</span>

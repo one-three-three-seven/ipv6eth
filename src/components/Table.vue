@@ -16,7 +16,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Listening IPv6</td>
+                        <td>IPv6 Support</td>
                         <td>
                             <CheckCircleIcon class="green-icon" />
                         </td>
@@ -37,7 +37,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Listening Dual-Stack</td>
+                        <td>Dual-Stack Support</td>
                         <td>
                             <XCircleIcon class="red-icon" />
                         </td>
