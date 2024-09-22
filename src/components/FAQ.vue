@@ -35,9 +35,9 @@
             </li>
             <li>
                 <h3>Why are no execution layer clients listed?</h3>
-                <span>The consensus layer network is more important to keep the node up to the head block.</span>
-                <span>Execution layer clients use, by default, the Discv4 protocol to discover other nodes. Discv4 does not allow the advertisement of multiple IP addresses at the same time.
-                    Because of this, dual-stack setups are not practical there yet. The execution layer clients first need to use Discv5 by default, before we can think about IPv6 support.</span>
+                <span>Keeping the node in sync with the network depends more on the consensus layer network.</span>
+                <span>Most execution layer clients use the Discv4 protocol by default to discover other nodes. Discv4 doesn't support advertising multiple IP addresses at the same time, making dual-stack setups impractical right now.
+                    To enable better IPv6 support, a transition to Discv5 is required.</span>
             </li>
             <li>
                 <h3>This website contains wrong or outdated information</h3>
