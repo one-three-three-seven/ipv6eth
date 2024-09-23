@@ -156,10 +156,10 @@
                             <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'Dual-Stack may already work, but needs more testing', delay: 0, triggers: ['hover', 'click'] }" />
                         </td>
                         <td>
-                            <!-- Placeholder -->
+                            <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'May switch to dual-stack as the default', delay: 0, triggers: ['hover', 'click'] }" />
                         </td>
                         <td>
-                            <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'May switch to dual-stack as the default in the future', delay: 0, triggers: ['hover', 'click'] }" />
+                            <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'May switch to dual-stack as the default', delay: 0, triggers: ['hover', 'click'] }" />
                         </td>
                     </tr>
                 </tbody>
