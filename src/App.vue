@@ -1,7 +1,6 @@
 <template>
     <h1 class="mx-auto mt-5 text-center">Ethereum IPv6 Support</h1>
     <h4 class="mx-auto mt-1 mb-2 text-center">(Maintained by Sonic)</h4>
-    <h4 class="mx-auto mt-1 mb-2 text-center font-bold">(Work in progress)</h4>
     <a href="https://github.com/one-three-three-seven/ipv6eth" class="mx-auto" target="_blank">
         <img src="@/assets/github.svg" width="30" height="30" alt="GitHub">
     </a>
