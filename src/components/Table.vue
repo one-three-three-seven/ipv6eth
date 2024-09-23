@@ -147,7 +147,7 @@
                             <!-- Placeholder -->
                         </td>
                         <td>
-                            <!-- Placeholder -->
+                            <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'More testing needed before dual-stack becomes default', delay: 0, triggers: ['hover', 'click'] }" />
                         </td>
                         <td>
                             <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'More testing needed before dual-stack becomes default', delay: 0, triggers: ['hover', 'click'] }" />
