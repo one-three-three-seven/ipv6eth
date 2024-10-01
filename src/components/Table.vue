@@ -142,6 +142,27 @@
                         </td>
                     </tr>
                     <tr>
+                        <td>IPv4/IPv6 Same Port #</td>
+                        <td>
+                            <XCircleIcon class="red-icon" />
+                        </td>
+                        <td>
+                            <CheckCircleIcon class="green-icon" />
+                        </td>
+                        <td>
+                            <XCircleIcon class="red-icon" />
+                        </td>
+                        <td>
+                            <CheckCircleIcon class="green-icon" />
+                        </td>
+                        <td>
+                            <XCircleIcon class="red-icon" />
+                        </td>
+                        <td>
+                            <CheckCircleIcon class="green-icon" />
+                        </td>
+                    </tr>
+                    <tr>
                         <td>Developer Feedback</td>
                         <td>
                             <!-- Placeholder -->
