@@ -59,8 +59,4 @@ ul>li>h3 {
 ul>li>span {
     @apply mb-2
 }
-
-a {
-    @apply link
-}
 </style>

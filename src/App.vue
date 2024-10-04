@@ -5,55 +5,67 @@
         <img src="@/assets/github.svg" width="30" height="30" alt="GitHub">
     </a>
     <div class="flex flex-wrap justify-center">
-        <Table />
+        <div class="flex-1 flex flex-col min-w-80 m-5 max-w-3xl">
+            <Table />
+            <hr class="h-1 my-4 bg-zinc-500">
+            <Config />
+            <hr class="h-1 my-4 bg-zinc-500">
+            <Issues />
+        </div>
         <FAQ />
     </div>
 </template>
 
 <script setup lang="ts">
-    import Table from '@/components/Table.vue'
-    import FAQ from '@/components/FAQ.vue'
+import Table from '@/components/Table.vue'
+import Config from '@/components/Config.vue'
+import Issues from '@/components/Issues.vue'
+import FAQ from '@/components/FAQ.vue'
 </script>
 
 <style>
-    h1 {
-        @apply text-3xl font-bold
-    }
+a {
+    @apply link
+}
 
-    h2 {
-        @apply text-2xl font-bold
-    }
+h1 {
+    @apply text-3xl font-bold
+}
 
-    h3 {
-        @apply text-xl font-bold
-    }
+h2 {
+    @apply text-2xl font-bold
+}
 
-    h4 {
-        @apply text-xl
-    }
+h3 {
+    @apply text-xl font-bold
+}
 
-    span, a {
-        @apply text-lg
-    }
+h4 {
+    @apply text-xl
+}
 
-    ul {
-        @apply list-none
-    }
+span, a {
+    @apply text-lg
+}
 
-    .v-popper__popper .v-popper__inner {
-        @apply bg-black
-    }
+ul {
+    @apply list-none
+}
 
-    .v-popper__popper .v-popper__arrow-outer {
-        @apply border-black
-    }
+.v-popper__popper .v-popper__inner {
+    @apply bg-black
+}
 
-    .v-popper__popper.v-popper__popper--show-from .v-popper__wrapper {
-        transform: scale(.5);
-    }
+.v-popper__popper .v-popper__arrow-outer {
+    @apply border-black
+}
 
-    .v-popper__popper.v-popper__popper--show-to .v-popper__wrapper {
-        transform: none;
-        transition: transform .2s;
-    }
+.v-popper__popper.v-popper__popper--show-from .v-popper__wrapper {
+    transform: scale(.5);
+}
+
+.v-popper__popper.v-popper__popper--show-to .v-popper__wrapper {
+    transform: none;
+    transition: transform .2s;
+}
 </style>
