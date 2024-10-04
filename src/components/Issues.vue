@@ -21,10 +21,24 @@
     <a href="https://github.com/ChainSafe/lodestar/issues/7123" target="_blank" class="text-base">Dual-stack adds tcp to discovery-addresses, does not list ip4</a>
     <a href="https://github.com/ChainSafe/lodestar/issues/6531" target="_blank" class="text-base">bug: uncaughtException: Configured bind multiaddrs must have different ports</a>
 
-
     <h4>Grandine</h4>
     <a href="https://github.com/grandinetech/grandine/issues/43" target="_blank" class="text-base">Consider enabling IPv4 / IPv6 dual-stack by default</a>
     <a href="https://github.com/grandinetech/grandine/issues/47" target="_blank" class="text-base">Feature: --libp2p-port and ---libp2p-port-ipv6 identical by default</a>
+
+    <h4>Nethermind</h4>
+    <a href="https://github.com/NethermindEth/nethermind/issues/7519" target="_blank" class="text-base">Adding --Discovery.DiscV5Enabled true to a synced DB causes Nethermind to fail</a>
+    <a href="https://github.com/NethermindEth/nethermind/issues/6822" target="_blank" class="text-base">Enable dual stack IPv6</a>
+
+    <h4>Geth</h4>
+    <a href="https://github.com/ethereum/go-ethereum/issues/23263" target="_blank" class="text-base">Support IPv6 mainnet P2P discovery bootstrap</a>
+    <a href="https://github.com/ethereum/go-ethereum/issues/20522" target="_blank" class="text-base">IP address limits might not suitable for IPv6</a>
+
+    <h4>Besu</h4>
+    <a href="https://github.com/hyperledger/besu/issues/3600" target="_blank" class="text-base">Validate enabling ipv6 improves syncing</a>
+
+    <h4>Reth</h4>
+    <a href="https://github.com/paradigmxyz/reth/issues/7114" target="_blank" class="text-base">Enable dual stack IPv6</a>
+    <a href="https://github.com/paradigmxyz/reth/issues/10983" target="_blank" class="text-base">IPv6 Only Mode</a>
 </template>
 
 <style scoped>
