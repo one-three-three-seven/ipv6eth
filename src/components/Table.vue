@@ -186,7 +186,7 @@
         </table>
     </div>
 
-    <span class="mt-2 text-base">The information shown is based on testing. A client may support a feature, but it might not have worked due to network conditions or incorrect configuration.</span>
+    <span class="mt-2">The information shown is based on testing. A client may support a feature, but it might not have worked due to network conditions or incorrect configuration.</span>
 
     <h3 class="text-center my-2">Execution Layer</h3>
     <div class="overflow-x-auto">
@@ -250,15 +250,17 @@ import { XCircleIcon } from '@heroicons/vue/24/outline'
 </script>
 
 <style scoped>
+@reference "@/assets/main.css";
+
 thead>tr>th {
     @apply px-1
 }
 
 tbody>tr>td {
-    @apply text-center text-nowrap
+    @apply text-center text-nowrap py-0.5
 }
 
 td {
-    @apply border-t border-zinc-500
+    @apply border-t border-zinc-400
 }
 </style>

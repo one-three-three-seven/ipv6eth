@@ -7,9 +7,9 @@
     <div class="flex flex-wrap justify-center">
         <div class="flex-1 flex flex-col min-w-80 m-5 max-w-3xl">
             <Table />
-            <hr class="h-1 my-4 bg-zinc-500">
+            <hr class="h-0.5 my-4 border-0 bg-zinc-500">
             <Config />
-            <hr class="h-1 my-4 bg-zinc-500">
+            <hr class="h-0.5 my-4 border-0 bg-zinc-500">
             <Issues />
         </div>
         <FAQ />
@@ -24,33 +24,7 @@ import FAQ from '@/components/FAQ.vue'
 </script>
 
 <style>
-a {
-    @apply link
-}
-
-h1 {
-    @apply text-3xl font-bold
-}
-
-h2 {
-    @apply text-2xl font-bold
-}
-
-h3 {
-    @apply text-xl font-bold
-}
-
-h4 {
-    @apply text-xl
-}
-
-span, a {
-    @apply text-lg
-}
-
-ul {
-    @apply list-none
-}
+@reference "@/assets/main.css";
 
 .v-popper__popper .v-popper__inner {
     @apply bg-black

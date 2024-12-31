@@ -1,25 +1,41 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-@layer components {
-    .link {
-        @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
-    }
+@utility red-icon {
+  @apply w-6 h-6 mx-auto text-red-500;
+}
 
-    .red-icon {
-        @apply w-6 h-6 mx-auto text-red-500
-    }
+@utility green-icon {
+  @apply w-6 h-6 mx-auto text-green-500;
+}
 
-    .green-icon {
-        @apply w-6 h-6 mx-auto text-green-500
-    }
+@utility orange-icon {
+  @apply w-6 h-6 mx-auto text-orange-500;
+}
 
-    .orange-icon {
-        @apply w-6 h-6 mx-auto text-orange-500
-    }
+@utility blue-icon {
+  @apply w-6 h-6 mx-auto text-blue-500;
+}
 
-    .blue-icon {
-        @apply w-6 h-6 mx-auto text-blue-500
-    }
+a {
+  @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600;
+}
+
+h1 {
+  @apply text-3xl font-bold
+}
+
+h2 {
+  @apply text-2xl font-bold
+}
+
+h3 {
+  @apply text-xl font-bold
+}
+
+h4 {
+  @apply text-lg
+}
+
+ul {
+  @apply list-none
 }

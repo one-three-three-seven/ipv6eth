@@ -48,6 +48,8 @@
 </template>
 
 <style scoped>
+@reference "@/assets/main.css";
+
 ul>li {
     @apply flex flex-col mt-2
 }
