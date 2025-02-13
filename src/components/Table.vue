@@ -62,7 +62,7 @@
                         <XCircleIcon class="red-icon" />
                     </td>
                     <td>
-                        <XCircleIcon class="red-icon" />
+                        <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
                         <XCircleIcon class="red-icon" />
@@ -167,7 +167,7 @@
                         <!-- Placeholder -->
                     </td>
                     <td>
-                        <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'More testing needed before dual-stack becomes default', delay: 0, triggers: ['hover', 'click'] }" />
+                        <!-- Placeholder -->
                     </td>
                     <td>
                         <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'More testing needed before dual-stack becomes default', delay: 0, triggers: ['hover', 'click'] }" />
