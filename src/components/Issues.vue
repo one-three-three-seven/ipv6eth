@@ -16,11 +16,6 @@
     <a href="https://github.com/status-im/nimbus-eth2/issues/6591" target="_blank">Public ip6 not shown in last_seen_p2p_address of Nimbus peer; nor in p2p_addresses of node identity</a>
     <a href="https://github.com/status-im/nimbus-eth2/issues/4839" target="_blank">Feature: IPv6 support</a>
 
-    <h4>Lodestar</h4>
-    <a href="https://github.com/ChainSafe/lodestar/issues/6532" target="_blank">Unused p2p_addresses & missing ipv6 address in disvoery_addresses in identity fields</a>
-    <a href="https://github.com/ChainSafe/lodestar/issues/7123" target="_blank">Dual-stack adds tcp to discovery-addresses, does not list ip4</a>
-    <a href="https://github.com/ChainSafe/lodestar/issues/6531" target="_blank">bug: uncaughtException: Configured bind multiaddrs must have different ports</a>
-
     <h4>Grandine</h4>
     <a href="https://github.com/grandinetech/grandine/issues/43" target="_blank">Consider enabling IPv4 / IPv6 dual-stack by default</a>
     <a href="https://github.com/grandinetech/grandine/issues/47" target="_blank">Feature: --libp2p-port and ---libp2p-port-ipv6 identical by default</a>

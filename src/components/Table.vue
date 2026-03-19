@@ -71,7 +71,7 @@
                         <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
-                        <XCircleIcon class="red-icon" />
+                        <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
                         <XCircleIcon class="red-icon" />
@@ -155,7 +155,7 @@
                         <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
-                        <XCircleIcon class="red-icon" />
+                        <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
                         <CheckCircleIcon class="green-icon" />
