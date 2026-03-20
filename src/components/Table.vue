@@ -11,6 +11,7 @@
                     <th>Nimbus</th>
                     <th>Lodestar</th>
                     <th>Grandine</th>
+                    <th>Caplin</th>
                 </tr>
             </thead>
             <tbody>
@@ -34,6 +35,9 @@
                     <td>
                         <CheckCircleIcon class="green-icon" />
                     </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
                 </tr>
                 <tr>
                     <td>Dual-Stack Support</td>
@@ -55,6 +59,9 @@
                     <td>
                         <CheckCircleIcon class="green-icon" />
                     </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
                 </tr>
                 <tr>
                     <td>Dual-Stack by Default</td>
@@ -72,6 +79,9 @@
                     </td>
                     <td>
                         <CheckCircleIcon class="green-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
                     </td>
                     <td>
                         <XCircleIcon class="red-icon" />
@@ -97,6 +107,9 @@
                     <td>
                         <CheckCircleIcon class="green-icon" />
                     </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
                 </tr>
                 <tr>
                     <td>Auto Dual-Stack ENR</td>
@@ -117,6 +130,9 @@
                     </td>
                     <td>
                         <CheckCircleIcon class="green-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
                     </td>
                 </tr>
                 <tr>
@@ -139,6 +155,9 @@
                     <td>
                         <CheckCircleIcon class="green-icon" />
                     </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
                 </tr>
                 <tr>
                     <td>IPv4/IPv6 Same Port #</td>
@@ -160,6 +179,9 @@
                     <td>
                         <CheckCircleIcon class="green-icon" />
                     </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
                 </tr>
                 <tr>
                     <td>Developer Feedback</td>
@@ -174,6 +196,9 @@
                     </td>
                     <td>
                         <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'Dual-Stack may already work, but needs more testing', delay: 0, triggers: ['hover', 'click'] }" />
+                    </td>
+                    <td>
+                        <!-- Placeholder -->
                     </td>
                     <td>
                         <!-- Placeholder -->
