@@ -187,6 +187,243 @@
     </div>
 
     <span class="mt-2">The information shown is based on testing. A client may support a feature, but it might not have worked due to network conditions or incorrect configuration.</span>
+
+    <h3 class="text-center my-2">Execution Layer</h3>
+    <div class="overflow-x-auto">
+        <table class="w-full">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Besu</th>
+                    <th>Reth</th>
+                    <th>Nethermind</th>
+                    <th>Geth</th>
+                    <th>Erigon</th>
+                    <th>Ethrex</th>
+                    <th>Nimbus EL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>IPv4/IPv6 Dual-Stack Support</td>
+                    <td>
+                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Experimental', delay: 0, triggers: ['hover', 'click'] }" />
+                    </td>
+                    <td>
+                        <CheckCircleIcon class="green-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dual-Stack by Default</td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Discv5 Support</td>
+                    <td>
+                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Experimental', delay: 0, triggers: ['hover', 'click'] }" />
+                    </td>
+                    <td>
+                        <CheckCircleIcon class="green-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <CheckCircleIcon class="green-icon" />
+                    </td>
+                    <td>
+                        <CheckCircleIcon class="green-icon" />
+                    </td>
+                    <td>
+                        <CheckCircleIcon class="green-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Discv5 by Default</td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <CheckCircleIcon class="green-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <CheckCircleIcon class="green-icon" />
+                    </td>
+                    <td>
+                        <CheckCircleIcon class="green-icon" />
+                    </td>
+                    <td>
+                        <CheckCircleIcon class="green-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Manual Dual-Stack ENR</td>
+                    <td>
+                        <CheckCircleIcon class="green-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Auto Dual-Stack ENR</td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dual-Stack Bootnodes</td>
+                    <td>
+                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
+                    </td>
+                    <td>
+                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
+                    </td>
+                    <td>
+                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
+                    </td>
+                    <td>
+                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
+                    </td>
+                    <td>
+                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
+                    </td>
+                    <td>
+                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
+                    </td>
+                    <td>
+                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>IPv4/IPv6 Same Port #</td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <CheckCircleIcon class="green-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                    <td>
+                        <XCircleIcon class="red-icon" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Developer Feedback</td>
+                    <td>
+                        <!-- Placeholder -->
+                    </td>
+                    <td>
+                        <!-- Placeholder -->
+                    </td>
+                    <td>
+                        <!-- Placeholder -->
+                    </td>
+                    <td>
+                        <!-- Placeholder -->
+                    </td>
+                    <td>
+                        <!-- Placeholder -->
+                    </td>
+                    <td>
+                        <!-- Placeholder -->
+                    </td>
+                    <td>
+                        <!-- Placeholder -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 </template>
 
 <script setup lang="ts">
