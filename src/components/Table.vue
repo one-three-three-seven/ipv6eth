@@ -71,7 +71,7 @@
                         <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
-                        <XCircleIcon class="red-icon" />
+                        <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
                         <XCircleIcon class="red-icon" />
@@ -116,7 +116,7 @@
                         <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'The IPv6 address was not automatically detected', delay: 0, triggers: ['hover', 'click'] }" />
                     </td>
                     <td>
-                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'The IPv6 address was not automatically detected', delay: 0, triggers: ['hover', 'click'] }" />
+                        <CheckCircleIcon class="green-icon" />
                     </td>
                 </tr>
                 <tr>
@@ -155,7 +155,7 @@
                         <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
-                        <XCircleIcon class="red-icon" />
+                        <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
                         <CheckCircleIcon class="green-icon" />
@@ -176,10 +176,10 @@
                         <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'Dual-Stack may already work, but needs more testing', delay: 0, triggers: ['hover', 'click'] }" />
                     </td>
                     <td>
-                        <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'May switch to dual-stack as the default', delay: 0, triggers: ['hover', 'click'] }" />
+                        <!-- Placeholder -->
                     </td>
                     <td>
-                        <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'May switch to dual-stack as the default', delay: 0, triggers: ['hover', 'click'] }" />
+                        <!-- Placeholder -->
                     </td>
                 </tr>
             </tbody>
@@ -187,60 +187,6 @@
     </div>
 
     <span class="mt-2">The information shown is based on testing. A client may support a feature, but it might not have worked due to network conditions or incorrect configuration.</span>
-
-    <h3 class="text-center my-2">Execution Layer</h3>
-    <div class="overflow-x-auto">
-        <table class="w-full">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>Nethermind</th>
-                    <th>Geth</th>
-                    <th>Besu</th>
-                    <th>Erigon</th>
-                    <th>Reth</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Discv5 Support</td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Experimental', delay: 0, triggers: ['hover', 'click'] }" />
-                    </td>
-                    <td>
-                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Experimental', delay: 0, triggers: ['hover', 'click'] }" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>Discv5 by Default</td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
 </template>
 
 <script setup lang="ts">
