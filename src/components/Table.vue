@@ -71,7 +71,7 @@
                         <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
-                        <XCircleIcon class="red-icon" />
+                        <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
                         <XCircleIcon class="red-icon" />
@@ -113,7 +113,7 @@
                         <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'The IPv6 address was not automatically detected', delay: 0, triggers: ['hover', 'click'] }" />
                     </td>
                     <td>
-                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'The IPv6 address was not automatically detected', delay: 0, triggers: ['hover', 'click'] }" />
+                        <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
                         <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'The IPv6 address was not automatically detected', delay: 0, triggers: ['hover', 'click'] }" />
@@ -155,7 +155,7 @@
                         <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
-                        <XCircleIcon class="red-icon" />
+                        <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
                         <CheckCircleIcon class="green-icon" />
@@ -176,7 +176,7 @@
                         <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'Dual-Stack may already work, but needs more testing', delay: 0, triggers: ['hover', 'click'] }" />
                     </td>
                     <td>
-                        <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'May switch to dual-stack as the default', delay: 0, triggers: ['hover', 'click'] }" />
+                        <!-- Placeholder -->
                     </td>
                     <td>
                         <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'May switch to dual-stack as the default', delay: 0, triggers: ['hover', 'click'] }" />
