@@ -14,7 +14,6 @@
     <a href="https://github.com/Consensys/teku/issues/10305" target="_blank">Feat: Add IPv6 auto-ENR</a>
 
     <h4>Nimbus</h4>
-    <a href="https://github.com/status-im/nimbus-eth2/issues/6591" target="_blank">Public ip6 not shown in last_seen_p2p_address of Nimbus peer; nor in p2p_addresses of node identity</a>
     <a href="https://github.com/status-im/nimbus-eth2/issues/4839" target="_blank">Feature: IPv6 support</a>
     <a href="https://github.com/status-im/nim-eth/issues/243" target="_blank">IPv6 Support for discv5</a>
 
@@ -31,8 +30,8 @@
     <a href="https://github.com/ethereum/go-ethereum/issues/20522" target="_blank">IP address limits might not suitable for IPv6</a>
 
     <h4>Besu</h4>
-    <a href="https://github.com/hyperledger/besu/issues/3600" target="_blank">Validate enabling ipv6 improves syncing</a>
-    <a href="https://github.com/orgs/hyperledger/projects/111?query=sort%3Aupdated-desc+is%3Aopen" target="_blank">Discovery v5</a>
+    <a href="https://github.com/besu-eth/besu/issues/9874" target="_blank">IPv6 address auto-discovery via DiscV5</a>
+    <a href="https://github.com/orgs/besu-eth/projects/2" target="_blank">Discovery v5</a>
 
     <h4>Reth</h4>
     <a href="https://github.com/paradigmxyz/reth/issues/7114" target="_blank">Enable dual stack IPv6</a>
