@@ -376,7 +376,7 @@
                 <tr>
                     <td>Dual-Stack Bootnodes</td>
                     <td>
-                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
+                        <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
                         <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
