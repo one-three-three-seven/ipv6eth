@@ -16,31 +16,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>IPv6 Support</td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>Dual-Stack Support</td>
+                    <td>IPv4/IPv6 Dual-Stack</td>
                     <td>
                         <XCircleIcon class="red-icon" />
                     </td>
@@ -82,30 +58,6 @@
                     </td>
                     <td>
                         <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>Manual Dual-Stack ENR</td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
                         <XCircleIcon class="red-icon" />
@@ -136,31 +88,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Dual-Stack Bootnodes</td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>IPv4/IPv6 Same Port #</td>
+                    <td>IPv4/IPv6 Same Port</td>
                     <td>
                         <XCircleIcon class="red-icon" />
                     </td>
@@ -181,30 +109,6 @@
                     </td>
                     <td>
                         <XCircleIcon class="red-icon" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>Developer Feedback</td>
-                    <td>
-                        <!-- Placeholder -->
-                    </td>
-                    <td>
-                        <!-- Placeholder -->
-                    </td>
-                    <td>
-                        <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'More testing needed before dual-stack becomes default', delay: 0, triggers: ['hover', 'click'] }" />
-                    </td>
-                    <td>
-                        <InformationCircleIcon class="blue-icon" v-tooltip="{ content: 'Dual-Stack may already work, but needs more testing', delay: 0, triggers: ['hover', 'click'] }" />
-                    </td>
-                    <td>
-                        <!-- Placeholder -->
-                    </td>
-                    <td>
-                        <!-- Placeholder -->
-                    </td>
-                    <td>
-                        <!-- Placeholder -->
                     </td>
                 </tr>
             </tbody>
@@ -225,58 +129,10 @@
                     <th>Geth</th>
                     <th>Erigon</th>
                     <th>Ethrex</th>
-                    <th>Nimbus EL</th>
+                    <th>Nimbus</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>IPv4/IPv6 Dual-Stack Support</td>
-                    <td>
-                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Experimental', delay: 0, triggers: ['hover', 'click'] }" />
-                    </td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>Dual-Stack by Default</td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                    <td>
-                        <XCircleIcon class="red-icon" />
-                    </td>
-                </tr>
                 <tr>
                     <td>Discv5 Support</td>
                     <td>
@@ -302,9 +158,9 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Discv5 by Default</td>
+                    <td>IPv4/IPv6 Dual-Stack</td>
                     <td>
-                        <XCircleIcon class="red-icon" />
+                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Experimental', delay: 0, triggers: ['hover', 'click'] }" />
                     </td>
                     <td>
                         <CheckCircleIcon class="green-icon" />
@@ -313,22 +169,22 @@
                         <XCircleIcon class="red-icon" />
                     </td>
                     <td>
-                        <CheckCircleIcon class="green-icon" />
+                        <XCircleIcon class="red-icon" />
                     </td>
                     <td>
-                        <CheckCircleIcon class="green-icon" />
+                        <XCircleIcon class="red-icon" />
                     </td>
                     <td>
-                        <CheckCircleIcon class="green-icon" />
+                        <XCircleIcon class="red-icon" />
                     </td>
                     <td>
                         <XCircleIcon class="red-icon" />
                     </td>
                 </tr>
                 <tr>
-                    <td>Manual Dual-Stack ENR</td>
+                    <td>Dual-Stack by Default</td>
                     <td>
-                        <CheckCircleIcon class="green-icon" />
+                        <XCircleIcon class="red-icon" />
                     </td>
                     <td>
                         <XCircleIcon class="red-icon" />
@@ -374,31 +230,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Dual-Stack Bootnodes</td>
-                    <td>
-                        <CheckCircleIcon class="green-icon" />
-                    </td>
-                    <td>
-                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
-                    </td>
-                    <td>
-                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
-                    </td>
-                    <td>
-                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
-                    </td>
-                    <td>
-                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
-                    </td>
-                    <td>
-                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
-                    </td>
-                    <td>
-                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'Probably no; not tested', delay: 0, triggers: ['hover', 'click'] }" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>IPv4/IPv6 Same Port #</td>
+                    <td>IPv4/IPv6 Same Port</td>
                     <td>
                         <XCircleIcon class="red-icon" />
                     </td>
@@ -419,30 +251,6 @@
                     </td>
                     <td>
                         <XCircleIcon class="red-icon" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>Developer Feedback</td>
-                    <td>
-                        <!-- Placeholder -->
-                    </td>
-                    <td>
-                        <!-- Placeholder -->
-                    </td>
-                    <td>
-                        <!-- Placeholder -->
-                    </td>
-                    <td>
-                        <!-- Placeholder -->
-                    </td>
-                    <td>
-                        <!-- Placeholder -->
-                    </td>
-                    <td>
-                        <!-- Placeholder -->
-                    </td>
-                    <td>
-                        <!-- Placeholder -->
                     </td>
                 </tr>
             </tbody>

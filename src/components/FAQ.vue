@@ -8,7 +8,7 @@
             <li>
                 <h3>Why should we improve the IPv6 support?</h3>
                 <span>Not every ISP provides a publicly reachable IPv4 address, or they charge extra fees for it. Sometimes they even require an upgrade to an expensive business plan. Unlike IPv4, IPv6 addresses are typically provided without extra fees.</span>
-                <span>It is generally possible to run a node without a public IP address (with outgoing connections only). But the search for peers is slower, you may find fewer and their quality might be worse.</span>
+                <span>It is generally possible to run a node without a public IP address (with outgoing connections only). But the search for peers is slower; you may find fewer peers, and their quality might be worse.</span>
                 <span>Making it easier, more reliable, and more affordable to run a node from home is important for increasing the decentralization of the network.</span>
             </li>
             <li>
