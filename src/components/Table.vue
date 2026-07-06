@@ -72,7 +72,7 @@
                         <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
-                        <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'The IPv6 address was not automatically detected', delay: 0, triggers: ['hover', 'click'] }" />
+                        <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
                         <InformationCircleIcon class="orange-icon" v-tooltip="{ content: 'The IPv6 address was not automatically detected', delay: 0, triggers: ['hover', 'click'] }" />
@@ -96,7 +96,7 @@
                         <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
-                        <XCircleIcon class="red-icon" />
+                        <CheckCircleIcon class="green-icon" />
                     </td>
                     <td>
                         <CheckCircleIcon class="green-icon" />

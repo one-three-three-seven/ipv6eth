@@ -11,7 +11,7 @@
 
     <h4>Teku</h4>
     <a href="https://github.com/Consensys/teku/issues/8670" target="_blank" class="closed">IPv6 not automatically detected or included in ENR</a>
-    <a href="https://github.com/Consensys/teku/issues/8659" target="_blank">Feature: Dual-stack works with --p2p-port-ipv6 set to --p2p-port</a>
+    <a href="https://github.com/Consensys/teku/issues/8659" target="_blank" class="closed">Feature: Dual-stack works with --p2p-port-ipv6 set to --p2p-port</a>
     <a href="https://github.com/Consensys/teku/issues/10305" target="_blank" class="closed">Feat: Add IPv6 auto-ENR</a>
 
     <h4>Nimbus (Consensus Layer)</h4>
